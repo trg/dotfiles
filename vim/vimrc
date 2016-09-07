@@ -3,3 +3,9 @@ set incsearch "show search
 set number "line numbers
 syntax on "syntax highlighting
 set hidden "allow hidden buffer
+execute pathogen#infect()
+call pathogen#helptags()
+
+" Nerd Tree
+map <C-\> :NERDTreeToggle
+
