@@ -7,5 +7,12 @@ execute pathogen#infect()
 call pathogen#helptags()
 
 " Nerd Tree
-map <C-\> :NERDTreeToggle
+map <C-\> :NERDTreeToggle<CR>
 
+" Tabs, etc
+set nowrap " don't wrap lines
+set tabstop=2 "2 spaces per tab
+
+
+" Colorscheme
+colorscheme nocturne
