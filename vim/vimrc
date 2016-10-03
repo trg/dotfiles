@@ -17,3 +17,4 @@ set tabstop=2 "2 spaces per tab
 " Colorscheme
 colorscheme monokai
 set t_Co=256
+
