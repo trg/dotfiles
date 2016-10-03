@@ -15,4 +15,5 @@ set tabstop=2 "2 spaces per tab
 
 
 " Colorscheme
-colorscheme nocturne
+colorscheme monokai
+set t_Co=256
